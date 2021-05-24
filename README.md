@@ -12,7 +12,7 @@ Once you have cloned this repository and saved `legiscan.py`, you can import the
 To use the LegiScan API you must [register](https://legiscan.com/user/register) with LegiScan and request an API key. Both registration and key request are free, and LegiScan allows 30,000 free requests per month. Once you have your API key you can either set it as an environment variable or pass it explicitly to the class constructor:
 
 ```
-legis = LegiScan() #if you set your API key as an environment variable
+legis = LegiScan() #if you set your API key as an environment variable called LEGISCAN_API_KEY
 legis = LegiScan(apikey=YOUR_API_KEY_HERE) #if you are passing your key explicitly
 ```
 
